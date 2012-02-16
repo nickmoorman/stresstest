@@ -1,0 +1,14 @@
+This project contains a small program used to perform a stress test of a web
+application to ensure that it's performing as expected.
+
+The basic execution process is to read an input file with a test URL on each
+line, and then simulate heavy traffic using those requests.  The project is
+written in Python (with a small Bash helper) and requires Python 2.7+ to run.
+
+To get going, get an input file named "input.txt" ready, and run
+    ./stresstest.sh
+
+
+-- Nick Moorman (nick@nickmoorman.com)
+2011-08-05
+
